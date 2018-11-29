@@ -47,7 +47,7 @@ jQuery(document).ready(function() {
 	, "assets/img/backgrounds/5.jpg"
     ], {duration: 3000, fade: 750});
     
-    $('.about-container').backstretch("assets/img/backgrounds/about.jpg");
+    $('.about-container').backstretch("assets/img/backgrounds/coruna.jpg");
 	
 	$('.camiseta-container').backstretch("assets/img/backgrounds/5.jpg");
 
