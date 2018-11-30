@@ -1,14 +1,14 @@
 
 body {
     background: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-weight: 300;
 }
 
 strong { font-weight: 700; }
 
 a, a:hover, a:focus {
-	color: #e8643e;
+	color: #FFF;
 	text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -17,8 +17,8 @@ a, a:hover, a:focus {
     transition: all .3s;
 }
 
-::-moz-selection { background: #e8643e; color: #fff; text-shadow: none; }
-::selection { background: #e8643e; color: #fff; text-shadow: none; }
+::-moz-selection { background: #ee7913; color: #fff; text-shadow: none; }
+::selection { background: #ee7913; color: #fff; text-shadow: none; }
 
 
 /***** Top menu *****/
@@ -43,7 +43,7 @@ nav a {
 	padding: 10px 0;
 	color: #fff;
 }
-nav a:hover { color: #e8643e; }
+nav a:hover { color: #ee7913; }
 nav a:focus { color: #fff; }
 
 .show-menu, .hide-menu {
@@ -161,8 +161,8 @@ nav a:focus { color: #fff; }
 .timer .hours-wrapper:hover,
 .timer .minutes-wrapper:hover,
 .timer .seconds-wrapper:hover {
-    background: #e8643e;
-    border: 1px solid #e8643e;
+    background: #589632;
+    border: 1px solid #589632;
     -o-transition: all .3s;
     -moz-transition: all .3s;
     -webkit-transition: all .3s;
@@ -236,12 +236,7 @@ nav a:focus { color: #fff; }
     line-height: 50px;
 }
 
-.subscribe h4 {
-    font-size: 30px;
-    font-weight: 50;
-    color: #4ea73c;
-    line-height: 50px;
-}
+
 
 .subscribe p {
 	margin-top: 30px;
@@ -339,8 +334,8 @@ nav a:focus { color: #fff; }
     height: 98px;
     margin: 0 auto;
     padding-top: 42px;
-    background: #e8643e;
-    border: 1px solid #e8643e;
+    background: #ee7913;
+    border: 1px solid #ee7913;
     font-size: 56px;
     -moz-border-radius: 85px;
     -webkit-border-radius: 85px;
@@ -843,4 +838,99 @@ footer {
     height: 100%;
     width: 100%;
     z-index: -9999;
+}
+
+
+/****** Registro *******/
+
+
+.register {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.register > .row {
+    margin-left: 0px!important;
+}
+
+.register h3 {
+    font-size: 46px;
+    font-weight: 100;
+    color: #589632;
+    line-height: 50px;
+}
+
+.register h4 {
+    font-size: 36px;
+    font-weight: 100;
+    color: #555;
+    line-height: 50px;
+}
+
+.register h5 {
+    font-size: 26px;
+    font-weight: 100;
+    color: #555;
+    line-height: 50px;
+}
+
+
+.register p {
+	margin-top: 30px;
+    font-size: 22px;
+    color: #888;
+    line-height: 36px;
+}
+
+.register form {
+    margin-top: 40px;
+}
+
+
+/****** Call for Papers ******/
+.cfp-container {
+    
+    margin: 60px auto 0 auto;
+    padding-bottom: 60px;
+    color: #FFF;
+    text-align: center;
+}
+
+.cfp > .row {
+    margin-left: 0px!important;
+}
+
+.cfp {
+    margin-top: 60px;
+    padding-bottom: 10px;
+    /*margin-left: 0px!important;*/
+}
+
+
+/****** Botones ******/
+
+.botones {
+    background: #ee7913!important;
+    width: 240px!important;
+    margin-bottom: 15px!important;
+    font-size: 18px;
+}
+
+.botones:hover {
+    background: linear-gradient(#93b023, #589632)!important;
+    width: 260px!important;
+    margin-bottom: 15px!important;
+    color: white!important;
+}
+
+.qgis-dark-green {
+    color: #589632!important;
+}
+
+.qgis-light-green {
+    color: #93b023!important;
+}
+
+.qgis-green-gradient {
+    background: linear-gradient(#93b023, #589632)!important;
 }

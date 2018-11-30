@@ -23,7 +23,9 @@ jQuery(document).ready(function() {
 		if(element_class == 'menu-top') { scroll_to = $(".coming-soon").offset().top; }
 		else if(element_class == 'menu-subscribe') { scroll_to = $(".subscribe").offset().top - nav_height - 60; }
 		else if(element_class == 'menu-project') { scroll_to = $(".about").offset().top - nav_height - 60; }
-		// else if(element_class == 'menu-testimonials') { scroll_to = $(".testimonials").offset().top - nav_height - 60; }
+		else if(element_class == 'menu-registry') { scroll_to = $(".register").offset().top - nav_height - 60; }
+		else if(element_class == 'menu-cfp') { scroll_to = $(".cfp").offset().top - nav_height - 60; }
+		else if(element_class == 'menu-testimonials') { scroll_to = $(".testimonials").offset().top - nav_height - 60; }
 		else if(element_class == 'menu-about-us') { scroll_to = $(".whos-behind").offset().top - nav_height - 60; }
 		else if(element_class == 'menu-camiseta') { scroll_to = $(".camiseta").offset().top - nav_height - 60; }
 		else if(element_class == 'menu-patrocinadores') { scroll_to = $(".patrocinadores").offset().top - nav_height - 60; }
@@ -49,7 +51,9 @@ jQuery(document).ready(function() {
     
     $('.about-container').backstretch("assets/img/backgrounds/coruna.jpg");
 	
-	$('.camiseta-container').backstretch("assets/img/backgrounds/5.jpg");
+	$('.camiseta-container').backstretch("assets/img/backgrounds/2.jpg");
+
+	$('.cfp-container').backstretch("assets/img/backgrounds/2.jpg");
 
     $('.whos-behind-container').backstretch("assets/img/backgrounds/5.jpg");
 
