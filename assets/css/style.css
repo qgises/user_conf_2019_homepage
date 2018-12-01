@@ -124,6 +124,20 @@ nav a:focus { color: #fff; }
     font-weight: bold;
 }
 
+.landing-page h3 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #FFF;
+    line-height: 50px;
+}
+
+.landing-page h4 {
+    font-size: 26px;
+    font-weight: 300;
+    color: #ee7913;
+    line-height: 50px;
+}
+
 .coming-soon p {
 	margin: 40px 0 10px 0;
 	padding: 0 320px;
@@ -908,6 +922,13 @@ footer {
 
 
 /****** Botones ******/
+
+.botones-disabled {
+    background: #6e6c6a!important;
+    width: 240px!important;
+    margin-bottom: 15px!important;
+    font-size: 18px;
+}
 
 .botones {
     background: #ee7913!important;

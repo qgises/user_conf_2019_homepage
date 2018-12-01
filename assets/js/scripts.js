@@ -37,6 +37,25 @@ jQuery(document).ready(function() {
 			$('html, body').animate({scrollTop: scroll_to}, 1000);
 		}
 	});
+
+	$('#boton-cfp').on('click', function(e) {
+		e.preventDefault();
+		var element_class = $(this).attr('class');
+		var scroll_to = 0;
+
+		scroll_to = $(".cfp").offset().top;
+		$('html, body').animate({scrollTop: scroll_to}, 1000);
+	});
+
+	$('#boton-registry').on('click', function(e) {
+		e.preventDefault();
+		var element_class = $(this).attr('class');
+		var scroll_to = 0;
+
+		scroll_to = $(".register").offset().top;
+		$('html, body').animate({scrollTop: scroll_to}, 1000);
+	});
+
 	
     /*
         Background slideshow
