@@ -1,4 +1,8 @@
 
+td, th {
+    text-align: center!important;
+}
+
 body {
     background: #fff;
     font-family: 'Roboto';
@@ -16,6 +20,8 @@ a, a:hover, a:focus {
     -ms-transition: all .3s;
     transition: all .3s;
 }
+
+
 
 ::-moz-selection { background: #ee7913; color: #fff; text-shadow: none; }
 ::selection { background: #ee7913; color: #fff; text-shadow: none; }
@@ -557,6 +563,11 @@ nav a:focus { color: #fff; }
     padding-bottom: 80px;
 	/*background-color:*/
 }
+
+.patrocinadores a:hover {
+    color: #589632;
+}
+
 
 .text--bold {
     font-weight: 500!important;
