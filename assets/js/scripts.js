@@ -52,7 +52,7 @@ jQuery(document).ready(function() {
 		var element_class = $(this).attr('class');
 		var scroll_to = 0;
 
-		scroll_to = $(".register").offset().top;
+		scroll_to = $(".cfp-container").offset().top;
 		$('html, body').animate({scrollTop: scroll_to}, 1000);
 	});
 

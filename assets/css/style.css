@@ -902,7 +902,7 @@ footer {
 
 .register p {
 	margin-top: 30px;
-    font-size: 22px;
+    font-size: 16px;
     color: #888;
     line-height: 36px;
 }
@@ -929,6 +929,35 @@ footer {
     margin-top: 60px;
     padding-bottom: 10px;
     /*margin-left: 0px!important;*/
+}
+
+.cfp h3 {
+    font-size: 46px;
+    font-weight: 100;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+.cfp h4 {
+    font-size: 36px;
+    font-weight: 100;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+.cfp h5 {
+    font-size: 26px;
+    font-weight: 100;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+
+.cfp p {
+	margin-top: 30px;
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 36px;
 }
 
 
@@ -965,4 +994,15 @@ footer {
 
 .qgis-green-gradient {
     background: linear-gradient(#93b023, #589632)!important;
+}
+
+.keynotes-img {
+    height: 250px;
+    width: 250px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
 }
