@@ -103,9 +103,9 @@ nav a:focus { color: #fff; }
 
 .coming-soon .logo a {
     display: inline-block;
-    height: 150px;
+    height: 180px;
     width: 100%;
-    background: url(../img/svg/QGIS_logo\,_2017.svg) center center no-repeat;
+    background: url(../img/svg/qgis_logo_coru_torre.png) center center no-repeat;
     text-indent: -99999px;
     background-size: contain;
 }
