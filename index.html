@@ -126,7 +126,7 @@
       <div class="span12 subscribe">
         <h3>About</h3>
 
-        <iframe width="640" height="315" src="https://www.youtube.com/embed/J0qjwVp-JsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="iframe-youtube" width="640" height="315" src="https://www.youtube.com/embed/J0qjwVp-JsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <h3 class="qgis-dark-green">International QGIS User Conference</h3>
         <p>
@@ -423,16 +423,9 @@
     <div class="container">
       <div class="row logos-patrocinadores"><br>
         <div class="span10 offset1 patrocinadores whos-behind" style="">
-
-          <h3>Collaborators</h3>
-          <a href="https://www.coruna.gal" target="_blank"><img width="300px" src="assets/img/patrocinadores/logoAytoCorunaProxima.png"></a>
-          <a href="https://www.osgeo.org" target="_blank"><img width="300px" src="assets/img/patrocinadores/osgeo.svg"></a>
-          <br/>
-          <a href="https://www.udc.es/" target="_blank"><img width="200px" src="assets/img/patrocinadores/logo-udc.jpg"></a>
-          <a href="http://caminos.udc.es/" target="_blank"><img width="120px" src="assets/img/patrocinadores/caminos_logo.jpg"></a>
-          <a href="http://cartolab.udc.es/cartoweb/" target="_blank"><img width="180px" src="assets/img/patrocinadores/LOGO_CARTOLAB.png"></a>
           
-          
+          <h3>Sponsors</h3>
+          <br>
           <h3>Silver</h3>
           <a href="https://www.lutraconsulting.co.uk/" target="_blank"><img width="300px" src="assets/img/patrocinadores/lutra.svg"></a>
           <a href="https://geographica.gs/" target="_blank"><img width="160px" src="assets/img/patrocinadores/GEOGRAPHICA_POS-green.svg"></a>
@@ -441,7 +434,7 @@
           <a href="https://mappinggis.com/" target="_blank"><img width="160px" src="assets/img/patrocinadores/mappingGis.png"></a>
           <a href="https://www.fisotec.es/" target="_blank"><img width="200px" src="assets/img/patrocinadores/fisotec.png"></a>
           <a href="https://unigis.net" target="_blank"><img width="180px" src="assets/img/patrocinadores/unigis.png"></a>
-          <a href="https://www.nexusgeographics.com" target="_blank"><img width="400px" src="assets/img/patrocinadores/nexus.png"></a>
+          <a href="https://www.nexusgeographics.com" target="_blank"><img width="320px" src="assets/img/patrocinadores/nexus.png"></a>
           <br/>
           <a href="http://icarto.es/" target="_blank"><img width="400px" src="assets/img/patrocinadores/icarto_horz.jpg"></a>
           <a href="http://www.bgeo.es/" target="_blank"><img width="300px" src="assets/img/patrocinadores/bgeo_logo.svg"></a>
@@ -499,20 +492,57 @@
         </div>
       </div>
       <div class="row">
-        <div class="span6 whos-behind-box-1">
+        <div class="span4 whos-behind-box-1">
           <div class="whos-behind-photo">
             <img src="assets/img/organizacion/xeoinquedos.png" alt="Xeoinquedos">
           </div>
-          <h4><a title="Xeoinquedos" href="http://xeoinquedos.eu/">Xeoinquedos</a></h4>
+          <h4><a title="Xeoinquedos" href="http://xeoinquedos.eu/" target="_blank">Xeoinquedos</a></h4>
           <br>
         </div>
-        <div class="span6 whos-behind-box-1">
+        <div class="span4 whos-behind-box-1">
           <div class="whos-behind-photo">
             <img src="assets/img/organizacion/qgis_esp.png" alt="Grupo de usuarios de QGIS España">
           </div>
-          <h4><a title="Grupo de usuarios de QGIS España" href="http://qgis.es/">Grupo de usuarios de QGIS España</a></h4>
+          <h4><a title="Grupo de usuarios de QGIS España" href="http://qgis.es/" target="_blank">Grupo de usuarios de QGIS España</a></h4>
           <br>
         </div>
+        <div class="span4 whos-behind-box-1">
+          <div class="whos-behind-photo">
+            <img width="300px" src="assets/img/patrocinadores/osgeo.svg" alt="OSGeo">
+          </div>
+          <h4><a title="OSGeo" href="https://www.osgeo.org" target="_blank">OSGeo</a></h4>
+          <br>
+        </div>   
+      </div>
+
+      <div class="row">
+        <div class="span4 whos-behind-box-1">
+          <div class="whos-behind-photo">
+            <img src="assets/img/patrocinadores/logoAytoCorunaProxima.png">
+          </div>
+          <h4><a title="Concello de A Coruña" href="https://www.coruna.gal" target="_blank">Concello de A Coruña</a></h4>
+        </div>
+        <div class="span4 whos-behind-box-1">
+            <div class="whos-behind-photo">
+                <img src="assets/img/patrocinadores/logo-udc.jpg">
+              </div>
+              <h4><a title="UDC" href="https://www.udc.es/" target="_blank">Universidade de A Coruña</a></h4>
+        </div>
+        <div class="span4 whos-behind-box-1">
+            <div class="whos-behind-photo">
+                <img src="assets/img/patrocinadores/caminos_logo.jpg">
+              </div>
+              <h4><a title="Caminos" href="http://caminos.udc.es/" target="_blank">Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos</a></h4>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="span12 whos-behind-box-1">
+              <div class="whos-behind-photo">
+                  <img src="assets/img/patrocinadores/LOGO_CARTOLAB.png">
+                </div>
+                <h4><a title="CartoLab" href="http://cartolab.udc.es/cartoweb/" target="_blank">CartoLab</a></h4>
+          </div>
       </div>
     </div>
   </div>

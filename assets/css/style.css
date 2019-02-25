@@ -9,10 +9,15 @@ body {
     font-weight: 300;
 }
 
+#iframe-youtube {
+    max-width: 90%;
+    height: 250px;
+}
+
 strong { font-weight: 700; }
 
 a, a:hover, a:focus {
-	color: #FFF;
+	color: #ee7913;
 	text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -104,7 +109,7 @@ nav a:focus { color: #fff; }
 .coming-soon .logo a {
     display: inline-block;
     height: 180px;
-    width: 100%;
+    width: 90%;
     background: url(../img/svg/qgis_logo_coru_torre.png) center center no-repeat;
     text-indent: -99999px;
     background-size: contain;
@@ -496,7 +501,7 @@ nav a:focus { color: #fff; }
 
 .whos-behind-box-1 .whos-behind-photo {
 	position: relative;
-    width: 142px;
+    width: 300px;
     height: 142px;
     margin: 0 auto;
     overflow: hidden;
@@ -504,7 +509,9 @@ nav a:focus { color: #fff; }
 }
 
 .whos-behind-box-1 .whos-behind-photo img {
-	width: 100%;
+    /*width: 100%;*/
+    max-height: 135px;
+    
     /*
     -moz-border-radius: 85px;
 	-webkit-border-radius: 85px;
